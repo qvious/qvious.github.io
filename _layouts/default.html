@@ -8,7 +8,10 @@
 		{% seo %}
 		{% feed_meta %}
 
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Quattrocento|Vollkorn:400,400i,700,700i">
+	<!--	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Quattrocento|Vollkorn:400,400i,700,700i"> -->		
+		<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
@@ -21,8 +24,7 @@
 				ga('send', 'pageview');
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
-		{% endif %}
-				
+		{% endif %}				
 	</head>
 
 	<body>
@@ -53,7 +55,9 @@
 		{% elsif page.call_to_action == 'Contact' %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free.
+					<font size="5em" > <!-- <font size="5em" color="green"> -->
+					<a href="{{ site.baseurl }}/contact/"><font color = "green"> Contact us </font></a> today to find out how we can help you. Alwasy welcom your questions.
+					</font>
 				</p>
 			</section>
 		{% else %}
@@ -73,38 +77,38 @@
 						<ul class="footer-links">
 							<li>
 								<h2>{{ column.title }}</h2>
-							</li>
-							{% for link in column.links %}
-								<li>
+															
+								{% for link in column.links %}								
 									<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
 										{% if link.social_icon %}
 											{% include social-icon.html icon=link.social_icon %}
 										{% endif %}
-
-										{{ link.name }}
-									</a>
-								</li>
+										{{ link.name }} &nbsp; &nbsp;
+									</a>								
 							{% endfor %}
-						</ul>
+							</li>						
 					{% endfor %}
+					</ul>
 
-					<ul class="footer-links">
+<!--					<ul class="footer-links">
 						<li>
 							<h2>{{ site.data.company.title }}</h2>
 						</li>
 						<li>{{ site.data.company.description }}</li>
 						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 
 			<div class="legal-line">
+				<center>
 				<p class="container">
 					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }} &bull;
 					<a href="{{ site.baseurl }}/terms/">Terms</a>
 					&bull;
-					Template by <a href="http://cloudcannon.com/">CloudCannon</a>
+					Template by <a href="https://cloudcannon.com/">CloudCannon</a> & <a href="https://suekwon.github.io/">suekwon</a>
 				</p>
+			  </center>
 			</div>
 		</footer>
 	</body>
