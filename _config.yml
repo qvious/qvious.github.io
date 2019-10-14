@@ -1,17 +1,18 @@
 # ----
 # Site
 
-title: Justice Template
-url: "https://orchid-heron.cloudvent.net"
+title: Qvious
+#url: "https://orchid-heron.cloudvent.net"
 baseurl: 
+url: "https://qvious.github.io"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
-author:
+description: Jekyll template 
+author: 
   name:
   email:
   twitter: # twitter username without the @ symbol
@@ -24,7 +25,17 @@ social:
 # Build
 
 #timezone: Etc/UTC+8
-
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - LICENSE.txt
+  - CHANGELOG.md
+  - jekyll-whiteglass.gemspec
+  - screenshot.png
+  - vendor
+  
 paginate: 10
 paginate_path: "/advice/:num/"
 
@@ -49,7 +60,7 @@ defaults:
         content:
           width: 960
           height: 2000
-      _comments:
+      _comments: 
         image: Shown in social shares and the advice list.
   -
     scope:
@@ -65,8 +76,10 @@ permalink: pretty
 
 jekyll-archives:
   enabled:
-    - categories
+    - categories    
+    
 
+#Plugins
 plugins:
   - jekyll-archives
   - jekyll-sitemap
