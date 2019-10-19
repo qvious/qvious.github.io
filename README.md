@@ -1,78 +1,191 @@
-# Justice
+# Sleek
 
-Law firm themed business template for Jekyll. Browse through a [live demo](https://grey-grouse.cloudvent.net/).
-Increase the web presence of a law firm or business with this configurable theme.
+[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
 
-![Justice template screenshot](images/_screenshot.png)
+A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
 
-Justice was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
-
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+![Sleek Jekyll Theme](./sleek.jpg)
 
 ## Features
 
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination
-* Post category pages
-* Disqus comments for posts
-* Staff and author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+* Compatible with [Github Pages](https://pages.github.com/)
+* Minimal, responsive and speed performance optimized
+* SEO friendly, with help of [Jekyll SEO Plugin](https://github.com/jekyll/jekyll-seo-tag)
+* Easy [Google Tag Manager](https://tagmanager.google.com/) Integration
+* Support for [Disqus](https://disqus.com/) comments
+* Form submissions with [Formspree](#formspree)
 
-## Setup
+[Preview Demo](https://janczizikow.github.io/sleek/)
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+## Installation
 
-## Develop
+### System Requirements
 
-Justice was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+To use this project, you'll need the following things on your local machine:
 
-Install the dependencies with [Bundler](https://bundler.io/):
+#### Jekyll
 
-~~~bash
-$ bundle install
-~~~
+```shell
+gem install jekyll
+```
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+#### NodeJS (8 or greater)
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
+Download and open the [NodeJS installer](https://nodejs.org/en/)
 
-## Editing
+#### Gulp CLI (optional, but recommended)
 
-Justice is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+```shell
+npm install --global gulp-cli
+```
+
+### Up & Running
+
+1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
+2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
+3. Inside the directory run `bundle install` and `npm install`
+4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
+    * if you don't want to use gulp you can run `bundle exec jekyll serve` instead
+
+#### Installing to existing jekyll project
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-sleek"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-sleek
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install jekyll-sleek
+
+## File Structure Overview
+
+```bash
+sleek
+├── _includes	               # theme includes
+├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
+├── _layouts                   # theme layouts (see below for details)
+├── _pages                     # pages folder (empty by default)
+├── _posts                     # blog posts
+├── _sass                      # Sass partials
+├── assets
+|  ├── css	               # minified css files
+|  ├── img                     # images and icons used for the template
+|  └── js		               # bundled and minified files from _js folder
+├── _config.yml                # sample configuration
+├── gulpfile.js                # gulp tasks (tasks autorunner)
+├── index.md                   # sample home page (blog page)
+└── package.json               # gulp tasks
+```
+
+## Usage
+
+You can modify the theme by changing the settings in `_config.yml`.
 
 ### Posts
 
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+Create a new Markdown file such as 2017-01-13-my-post.md in _post folder. Configure YAML Front Matter (stuff between `---`):
 
-### Contact Form
+```yaml
+---
+layout: post # needs to be post
+title: Getting Started with Sleek # title of your post
+featured-img: sleek #optional - if you want you can include hero image
+---
+```
 
-* Preconfigured to work with [CloudCannon](https://app.cloudcannon.com/), but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address listed in company details.
+#### Images
 
-### Staff
+In case you want to add a hero image to the post, apart from changing featured-img in YAML, you also need to add the image file to the project. To do so, just upload an image in .jpg format to `_img` folder. The name must before the .jpg file extension has to match with featured-img in YAML. Next, run `gulp img` from command line to generate optimized version of the image and all the thumbnails. You have to restart the jekyll server to see the changes.
 
-* Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+Sleek uses [Lazy Sizes](https://github.com/aFarkas/lazysizes). Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt’t require any configuration and it’s going to be included in your bundled js file.
 
-### Footer
+### Pages
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+The home page is located under index.md file. To change the content or design you have to edit the default.html file in `_layouts` folder.
 
-### Company details
+In order to add a new page, create a new html or markdown file under root directory or inside _pages folder. To add a link in navigation add it in `_config.yml`:
 
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
+```yaml
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
+```
+
+`name` is the text that will be shown and link, well, it's a link.
+
+### Site configuration
+
+Sleek comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) to know how to set it up.
+
+Additionally, in `_config.yml` you can find custom theme settings under `# THEME SETTINGS` comment. Here's a brief overview of those custom settings:
+
+- `navigation` - collection of links that will be shown in the header
+- `tagline` - text that will be displayed on the homepage under the heading.
+- `hero_img` - background image of the homepage hero section
+
+Other settings usually enable/disable certain feature, and are discussed with the next sections.
+
+### Google Tag Manager
+
+To enable Google Tag Manager, add the uncomment the following line in `_config.yml`:
+
+```yaml
+google_tag_manager: GTM-XXXXXXX
+```
+
+Replace `GTM-XXXXXXX` with your Google Tag Manager Container ID.
+
+**Note** by default GTM tracking snippet will be also included in development environment.
+
+Google Tag Manager was chosen for this project as it's more flexible than Google Analytics, and it can be used to add GA to your site.
+
+### Disqus
+
+To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208) to `_config.yml`:
+
+```yaml
+disqus:
+  shortname: my_disqus_shortname
+```
+
+### Formspree
+
+To use [Formspree](https://formspree.io/) with your email address, you need to change the following:
+
+Change `your-email@domain.com` email in `_config.yml`
+
+```yaml
+email: your-email@domain.com
+```
+
+You can check if it works by simply submitting the form.
+
+If you have a Formspree Gold Account, you can take advantage of using AJAX to submit form. To do so, uncomment last function in `_js/scripts.js` and run `gulp js`. Now the form will be submitted asynchronously, without leaving the page.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [https://github.com/janczizikow/sleek](https://github.com/janczizikow/sleek). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install` and `npm install`.
+
+The theme is setup just like a normal Jekyll site! Check out [file structure overview](#file-structure-overview) for details. To test the theme, run `gulp` and open your browser at `http://localhost:3000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to the content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
