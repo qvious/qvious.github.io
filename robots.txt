@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap: https://www.qvious.com/sitemap.xml
