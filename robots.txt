@@ -1,2 +1,2 @@
 User-agent: *Allow:/
-Sitemap: https://www.qvious.com/sitemap.xml
+Sitemap: https://qvious.github.io/sitemap.xml
