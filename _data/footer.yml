@@ -1,0 +1,32 @@
+- title: Pages
+  links:
+    - name: HOME
+      link: 
+    - name: ABOUT US
+      link: /#about
+    - name: SERVICES
+      link: /#services/
+    - name: Contact
+      link: /#contact/
+    - name: NEWS
+      link: /#news/     
+- title:      
+- title:
+#- title: Social
+#  links:
+#    - name: Facebook
+#      link: http://facebook.com/cloudcannon/
+#      social_icon: Facebook
+#      new_window: true
+#    - name: Twitter
+#      link: http://twitter.com/cloudcannon
+#      social_icon: Twitter
+#      new_window: true
+#    - name: Instagram
+#      link: http://instagram.com/
+#      social_icon: Instagram
+#      new_window: true
+#    - name: LinkedIn
+#      link: https://nz.linkedin.com/company/cloud-cannon/
+#      social_icon: LinkedIn
+#      new_window: true

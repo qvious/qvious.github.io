@@ -1,0 +1,49 @@
+# Site settings
+title: Qvious
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://qvious.github.io" # the base hostname & protocol for your site
+
+# -----
+# Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+paginate: 10
+paginate_path: "/advice/:num/"
+
+
+defaults:
+   -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      _options:
+        content:
+          width: 960
+          height: 2000
+      _comments: 
+        image: Shown in social shares and the advice list.
+
+
+jekyll-archives:
+  enabled:
+    - categories    
+    
+
+#Plugins
+plugins:  
+  - jekyll-sitemap  
+  - jekyll-feed
+  - jekyll-paginate
+  
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
