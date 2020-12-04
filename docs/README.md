@@ -7,7 +7,9 @@ hide_description: true
 sitemap: false
 ---
 
-큐비어스 리서치 관련 포스팅 페이지
+
+![Screenshot](../assets/img/4.jpg)
+<!-- {:width="260" height="190.4" loading="lazy"} -->
 
 While this manual tries to be beginner-friendly.
 {:.note}
