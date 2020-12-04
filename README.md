@@ -1,14 +1,20 @@
-# Qvious homepage
+# Hydejack Starter Kit
 
-Specialists in Financial Teechnologies for OTC Market [Qvious home](http://qvious.com).
+A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
-<!-- Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/> -->
+## Quick Start
+### Running locally
+1. Clone repository (git users), or [download] and unzip.
+2. Open terminal, `cd` into root directory (where `_config.yml` is located)
+3. Run `bundle install` [^1]
+4. Run `bundle exec jekyll serve`
+5. Open <http://localhost:4000/hydejack-starter-kit/>
 
-## Categories
+## What's next?
+* Open files and read the comments
+* Read the [docs](https://hydejack.com/docs/)
+* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
-- `Services` 
-- `About us`
-- `Contact`
+[^1]: Requires Bundler. Install with `gem install bundler`.
 
+[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
