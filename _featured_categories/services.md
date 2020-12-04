@@ -17,8 +17,9 @@ hide_description: true
 <dl>
 <div class="text-center">
   <h3>Pricing Engine</h3>
-  <p class="text-muted">Advanced valuation models for Derivatives pricing</p>
   <i class="fa fa-4x fa-calculator text-info"></i>
+  <p class="text-muted">Advanced valuation models for Derivatives pricing</p>
+  
 
   <h3>Building Curve</h3>
   <p class="text-muted">Interest rate curves,</p>
