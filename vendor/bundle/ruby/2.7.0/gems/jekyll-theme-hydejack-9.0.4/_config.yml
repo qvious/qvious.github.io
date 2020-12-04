@@ -1,9 +1,9 @@
 lang:                  en
-title:                 Qvious, Inc.
-logo:                  /assets/icons/qvious_icon.png
-copyright:             © 2019. All rights reserved.
+title:                 Hydejack
+logo:                  /assets/icons/icon.png
+copyright:             © 2020. All rights reserved.
 
-accent_image:          /assets/img/header.jpg
+accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 theme_color:           rgb(25,55,71)
 
@@ -31,7 +31,7 @@ hydejack:
   no_theme_color:      false
 
   use_lsi:             true
-  cookies_banner:      false
+  cookies_banner:      true
   advertise:           true
   hide_dates:          false
 
@@ -44,7 +44,7 @@ hydejack:
 
   offline:
     enabled:           false
-    cache_version:     5
+    cache_version:     1
     precache_assets:
       - /assets/img/swipe.svg
 
@@ -67,7 +67,7 @@ compress_html:
   clippings:           all
   endings:             all
   ignore:
-    envs:              [developer]
+    envs:              [development]
 
 sass:
   style:               compressed

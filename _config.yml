@@ -17,7 +17,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Qvious, Inc.
@@ -38,7 +38,7 @@ keywords:              ['Quant', 'Pricing', 'Curve']
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  #/assets/img/qvious_logo.png
+logo:                  /assets/img/touch-icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -76,9 +76,9 @@ copyright:             © 2020 Qvious • All rights reserved. Qvious respects y
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
-paginate_path:         /:num/
-
+paginate:              5
+paginate_path:         /page-:num/
+excerpt_separator:     <!--more-->
 
 # Collections
 # ----------------------------------------------------------------------------------------
@@ -156,11 +156,11 @@ defaults:
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
-  # - scope:
-  #     type:            projects
-  #   values:
-  #     seo:
-  #       type:          WebPage
+  - scope:
+      type:            projects
+    values:
+      seo:
+        type:          WebPage
   - scope:
       type:            featured_categories
     values:
@@ -206,7 +206,7 @@ hydejack:
   project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -226,7 +226,7 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
-  no_inline_css:       true
+  no_inline_css:       false
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
@@ -245,7 +245,7 @@ hydejack:
   no_third_column:     false
 
   # Set to `true` if you don't like oversized headlines on large screens.
-  no_large_headings:   false
+  no_large_headings:   true
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
@@ -256,11 +256,11 @@ hydejack:
   no_theme_color:      false
 
   # Set to `true` when building with the `--lsi` option
-  use_lsi:             true
+  use_lsi:             false
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      true
+  cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
@@ -280,7 +280,7 @@ hydejack:
     dynamic:           true
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              true
+    icon:              false
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
@@ -292,11 +292,28 @@ hydejack:
     precache_assets:
       - /assets/img/swipe.svg
 
+# Collections
+# ----------------------------------------------------------------------------------------
+
+  collections:
+    featured_categories:
+      permalink:         /:name/
+      output:            true
+
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
+
+  projects:
+    permalink:         /projects/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
 
 exclude:
+  - ./#jekyll-theme-hydejack/node_modules
+  - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - .sass-cache
   - vendor
@@ -411,3 +428,36 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
+
+# Other Plugins
+# ---------------------------------------------------------------------------------------
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+  with_frontmatter:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+compress_html:
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
+
+# jekyll-feed settings
+feed:
+  categories:
+    - devlog
+    - review          

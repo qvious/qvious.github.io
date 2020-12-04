@@ -1,5 +1,5 @@
 current directory: /Users/suebom/CloudStation/GitHub/Qvious/temp/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
-/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201118-9359-ufsong.rb extconf.rb
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201205-29873-15785m7.rb extconf.rb
 creating Makefile
 
 current directory: /Users/suebom/CloudStation/GitHub/Qvious/temp/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
@@ -13,4 +13,4 @@ linking shared-object fastfilereaderext.bundle
 
 current directory: /Users/suebom/CloudStation/GitHub/Qvious/temp/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20201118-9359-zqc124
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20201205-29873-8ndhev

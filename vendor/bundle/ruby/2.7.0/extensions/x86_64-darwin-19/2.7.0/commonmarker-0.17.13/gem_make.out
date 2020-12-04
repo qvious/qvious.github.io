@@ -1,5 +1,5 @@
 current directory: /Users/suebom/CloudStation/GitHub/Qvious/temp/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
-/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201204-39908-126pafo.rb extconf.rb
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201205-29873-19ealm6.rb extconf.rb
 creating Makefile
 
 current directory: /Users/suebom/CloudStation/GitHub/Qvious/temp/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
@@ -184,4 +184,4 @@ linking shared-object commonmarker/commonmarker.bundle
 
 current directory: /Users/suebom/CloudStation/GitHub/Qvious/temp/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20201204-39908-zlr4c3/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20201205-29873-172i7s9/commonmarker

@@ -14,14 +14,14 @@ While this manual tries to be beginner-friendly.
 
 
 ## Quant finance
-* [C++/Python]{:.heading.flip-title} --- How to install and run Hydejack.
-* [CurveCreation]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
+* [C++/Python]{:.heading.flip-title} --- How to code and run quant tool.
+* [Buildcurve]{:.heading.flip-title} ---  How to build the curves for financial developement.
 {:.related-posts.faded}
 <!-- * [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file. -->
 
 
 ## Data science
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
+* [Build]{:.heading.flip-title} --- How to build the curves for financial developement.
 * [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
 * [Basics]{:.heading.flip-title} --- How to add different types of content.
 * [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
@@ -35,12 +35,12 @@ While this manual tries to be beginner-friendly.
 {:.related-posts.faded}
 
 [C++/Python]: C++Python.md
-[CurveCreation]: curvecreation.md
+[buildcurve]: buildcurve.md
 [config]: config.md
 [basics]: basics.md
 [writing]: writing.md
 [scripts]: scripts.md
-[build]: build.md
+[build]: buildcurve.md
 [advanced]: advanced.md
 [IP]: ../LICENSE.md
 [LP]: ../NOTICE.md

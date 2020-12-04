@@ -20,7 +20,7 @@ hide_description: true
   <p class="text-muted">Advanced valuation models for Derivatives pricing</p>
   <i class="fa fa-4x fa-calculator text-info"></i>
 
-  <h3>Curve Creation</h3>
+  <h3>Building Curve</h3>
   <p class="text-muted">Interest rate curves,</p>
   <i class="fa fa-5x fa-line-chart text-info"></i>
 
