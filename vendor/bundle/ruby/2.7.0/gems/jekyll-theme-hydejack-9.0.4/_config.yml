@@ -1,9 +1,9 @@
 lang:                  en
 title:                 Qvious, Inc.
-logo:                  /assets/icons/icon-192x192.png
-copyright:             © 2020. All rights reserved.
+logo:                  /assets/icons/qvious_icon.png
+copyright:             © 2019. All rights reserved.
 
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/header.jpg
 accent_color:          rgb(79,177,186)
 theme_color:           rgb(25,55,71)
 
@@ -31,8 +31,8 @@ hydejack:
   no_theme_color:      false
 
   use_lsi:             true
-  cookies_banner:      true
-  advertise:           false
+  cookies_banner:      false
+  advertise:           true
   hide_dates:          false
 
   dark_mode:
@@ -44,7 +44,7 @@ hydejack:
 
   offline:
     enabled:           false
-    cache_version:     1
+    cache_version:     5
     precache_assets:
       - /assets/img/swipe.svg
 
@@ -67,7 +67,7 @@ compress_html:
   clippings:           all
   endings:             all
   ignore:
-    envs:              [development]
+    envs:              [developer]
 
 sass:
   style:               compressed
