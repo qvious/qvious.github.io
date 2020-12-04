@@ -22,19 +22,23 @@ hide_description: true
   
 
   <h3>Building Curve</h3>
+  <i class="fa fa-5x fa-line-chart text-info" aria-hidden="true"></i>
   <p class="text-muted">Interest rate curves,</p>
-  <i class="fa fa-5x fa-line-chart text-info"></i>
+  
 
   <h3>Trade Repository</h3>
+  <i class="fa fa-4x fa-archive text-info" data-wow-delay=".2s"></i>
   <p class="text-muted">Consulting & development for KRX Reporting Systems</p>    
-  <i class="fa fa-4x fa-archive text-info" data-wow-delay="2s"></i>
+  
 
   <h3>Margin Calculation</h3>
+  <i class="fa fa-5x fa-cubes text-info" data-wow-delay=".3s"></i> 
   <p class="text-muted">Variation Margin & Initial Margin</p>
-  <i class="fa fa-5x fa-cubes text-info" data-wow-delay="3s"></i> 
+  
   
   <h3>Risk Management</h3>
+  <i class="fa fa-5x fa-bar-chart text-info" aria-hidden="true" data-wow-delay=".4s"></i>
   <p class="text-muted">Sensitivities, Stress Test, VaR, and XVAs</p>
-  <i class="fa fa-5x fa-bar-chart text-info" aria-hidden="true" data-wow-delay="4s"></i>
+  
 </div>
 </dl>        
