@@ -1,51 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-04T23:06:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Qvious</title><subtitle></subtitle><entry><title type="html">Real Estate Flipping</title><link href="http://localhost:4000/property/2018/11/11/real-estate-flipping.html" rel="alternate" type="text/html" title="Real Estate Flipping" /><published>2018-11-11T09:00:00+09:00</published><updated>2018-11-11T09:00:00+09:00</updated><id>http://localhost:4000/property/2018/11/11/real-estate-flipping</id><content type="html" xml:base="http://localhost:4000/property/2018/11/11/real-estate-flipping.html">&lt;p&gt;Flipping is a term used primarily in the US to describe purchasing a revenue-generating asset and quickly reselling it for profit.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-12-04T23:14:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Qvious, Inc.</title><subtitle>Qvious offers the best solution for our clients. Our philosophy based on professional knowledge,  Enthusiastic teamwork, &amp; Trustworthy partner. 
+</subtitle><author><name>&lt;Qvious&gt; &lt;Inc.&gt;</name><email>&lt;admin@qvious.com&gt;</email></author><entry><title type="html">Introducing Qvious,Inc.</title><link href="http://localhost:4000/news/2020-07-03-introducing/" rel="alternate" type="text/html" title="Introducing Qvious,Inc." /><published>2020-07-03T00:00:00+09:00</published><updated>2020-12-03T16:00:09+09:00</updated><id>http://localhost:4000/news/introducing</id><content type="html" xml:base="http://localhost:4000/news/2020-07-03-introducing/">&lt;p class=&quot;lead&quot;&gt;Qvious is an ISDA SIMM2.2 Certified Vendor.&lt;/p&gt;
 
-&lt;p&gt;The term “flipping” is used by real estate investors to describe “residential redevelopment”. Redevelopment of distressed or abandoned properties or neighborhoods has sometimes been linked to malicious and unscrupulous acts in the post housing bubble era. The term “flipping” is frequently used both as a descriptive term for schemes involving market manipulation and other illegal conduct and as a derogatory term for legal real estate investing strategies that are perceived by some to be unethical or socially destructive. In the United Kingdom the term is used to describe a technique whereby Members of Parliament were found to be switching their second home between several houses, which had the effect of allowing them to maximize their taxpayer funded allowances.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#linking-in-style&quot;&gt;Modernized&lt;/a&gt; &lt;a href=&quot;#whats-in-the-cards&quot;&gt;design&lt;/a&gt;, &lt;a href=&quot;#ready-for-the-big-screen&quot;&gt;big headlines&lt;/a&gt;, big new features: &lt;a href=&quot;#built-in-search&quot;&gt;Built-In Search&lt;/a&gt;, &lt;a href=&quot;#sticky-table-of-contents&quot;&gt;Sticky Table of Contents&lt;/a&gt;, and &lt;a href=&quot;#auto-hiding-navbar&quot;&gt;Auto-Hiding Navbar&lt;/a&gt;. That &lt;a href=&quot;#and-much-more&quot;&gt;and more&lt;/a&gt; is Hydejack 9.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://unsplash.it/960/350?image=690&quot; alt=&quot;&quot; width=&quot;960&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
+&lt;ul class=&quot;large-only&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#linking-in-style&quot; id=&quot;markdown-toc-linking-in-style&quot;&gt;Linking in Style&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ready-for-the-big-screen&quot; id=&quot;markdown-toc-ready-for-the-big-screen&quot;&gt;Ready for the Big Screen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#whats-in-the-cards&quot; id=&quot;markdown-toc-whats-in-the-cards&quot;&gt;What’s in the Cards?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#built-in-search&quot; id=&quot;markdown-toc-built-in-search&quot;&gt;Built-In Search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#auto-hiding-navbar&quot; id=&quot;markdown-toc-auto-hiding-navbar&quot;&gt;Auto-Hiding Navbar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sticky-table-of-contents&quot; id=&quot;markdown-toc-sticky-table-of-contents&quot;&gt;Sticky Table of Contents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#and-much-more&quot; id=&quot;markdown-toc-and-much-more&quot;&gt;…and much more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#even-more-to-come&quot; id=&quot;markdown-toc-even-more-to-come&quot;&gt;Even More to Come&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#get-it-now&quot; id=&quot;markdown-toc-get-it-now&quot;&gt;Get It Now&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;types&quot;&gt;Types&lt;/h3&gt;
+&lt;h2 id=&quot;linking-in-style&quot;&gt;Linking in Style&lt;/h2&gt;
 
-&lt;h4 id=&quot;wholesaling-and-assigning-a-contract&quot;&gt;Wholesaling and assigning a contract&lt;/h4&gt;
+&lt;p&gt;Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the &lt;a href=&quot;#linking-in-style&quot;&gt;link style&lt;/a&gt; has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.&lt;/p&gt;
 
-&lt;p&gt;Wholesalers make a profit by signing a contract to purchase a property from a seller and then entering into an agreement with a third party to resell the same property at a higher price for a profit. All rights to the original purchase contract are assigned to the new buyer and the new buyer pays an “assignment fee” to the wholesaler in order to gain all rights to purchase the property at the original purchase price. The original purchase contract usually has an “inspection period” which allows the original buyer to back out of the contract and not close on it if they do not find a buyer to assign their contract to. Many wholesalers have no intention of actually purchasing the property and simply use wholesaling as a tool to locate properties for other investors.&lt;/p&gt;
+&lt;h2 id=&quot;ready-for-the-big-screen&quot;&gt;Ready for the Big Screen&lt;/h2&gt;
 
-&lt;p&gt;In many cases, if another buyer is not found before the end of the inspection period, the wholesaler cancels the original purchase contract (through its cancellation clause) and gets back the deposit. Wholesaling requires little or no money to be secured in escrow, and in most cases the wholesaler never intends to actually purchase the property. The practice of wholesaling is often advertised as “No Money Down and No Risk” by many real estate coaching companies and infomercials since the actual deposit can be as little as $10 and often even the deposit can be returned if the wholesaler cancels the contract before the end of the inspection period.&lt;/p&gt;
+&lt;p&gt;The theme on which Hydejack is based was designed for a different era of the web. Hydejack has inherited many of its limitations, but over time I’ve made adjustments, such as centering the content column for better reading ergonomics.&lt;/p&gt;
 
-&lt;h4 id=&quot;wholesaling-a-property-multiple-times&quot;&gt;Wholesaling a property multiple times&lt;/h4&gt;
+&lt;p&gt;With version 9, Hydejack takes full advantage of large displays. Whether it’s design indulgences such as oversized headlines, or quality of life improvements such as a floating table of contents, Hydejack now finds use for all that extra screen real estate&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;It is not uncommon for a property to be assigned multiple times and for a few wholesalers to make money in a transaction from the seller to the end buyer. The original wholesaler enters into a contract to purchase a property and then assigns or sells their rights to that contract to another investor. That investor then assigns their rights to said contract to a third investor and so forth. Examples of distress could be a property damaged by fire, flood, hurricane or a homeowner that is facing foreclosure and is about to lose their home and is selling it for substantially less than fair market value. The practice of buying real estate at substantially below market value is called Distressed Real Estate Investing or Wholesale Real Estate Investing hence the term “wholesaler”.&lt;/p&gt;
+&lt;h2 id=&quot;whats-in-the-cards&quot;&gt;What’s in the Cards?&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://unsplash.it/960/350?image=670&quot; alt=&quot;&quot; width=&quot;960&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Hydejack 9 now lets you use content cards for both projects and posts. 
+The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt; layout. The new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grid&lt;/code&gt; layout lets you do that.&lt;/p&gt;
 
-&lt;h4 id=&quot;real-estate-flipping&quot;&gt;Real estate flipping&lt;/h4&gt;
+&lt;p&gt;Good images are key to making the most out of content cards. For that reason, a &lt;a href=&quot;/docs/basics/#adding-images&quot;&gt;chapter on images&lt;/a&gt; has been added to the documentation.&lt;/p&gt;
 
-&lt;p&gt;Profits from flipping real estate come from either buying low and selling high (often in a rapidly rising market), or buying a house that needs repair and fixing it up before reselling it for a profit (“fix and flip”).&lt;/p&gt;
+&lt;h2 id=&quot;built-in-search&quot;&gt;Built-In Search&lt;/h2&gt;
 
-&lt;p&gt;Under the “fix and flip” scenario, an investor or flipper will purchase a property at a discount price. The discount may be because of:&lt;/p&gt;
+&lt;p&gt;Hydejack now has Built-In Search. It even works offline. I’ve been prototyping many approaches and eventually settled on a fully client-side, off-the-main thread solution that perfectly fits the use case of personal sites and shows surprisingly good results&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;the property’s condition (e.g., the house needs major renovations and/or repairs which the owner either does not want, or cannot afford, to do), or
-the owner(s) needing to sell a property quickly (e.g., relocation, divorce, pending foreclosure).
-The investor will then perform necessary renovations and repairs, and attempt to make a profit by selling the house quickly at a higher price. The “fix and flip” scenario is profitable to investors because the average homebuyer lacks the time and funds to repairs and renovations, so they look for a property that is ready to move into. Also, most traditional mortgage lenders require the home to be habitable with no significant repairs.&lt;/p&gt;
+&lt;p&gt;The new search UI is custom made for Hydejack and shows beautiful previews of your posts and pages, right on top of your regular content.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://unsplash.it/960/350?image=442&quot; alt=&quot;&quot; width=&quot;960&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Together with the Auto-Hiding Navbar, your entire content library is now only a couple of keystrokes away.&lt;/p&gt;
 
-&lt;h4 id=&quot;second-home-flipping&quot;&gt;Second home flipping&lt;/h4&gt;
+&lt;h2 id=&quot;auto-hiding-navbar&quot;&gt;Auto-Hiding Navbar&lt;/h2&gt;
 
-&lt;p&gt;In the UK, Members of Parliament with constituencies outside of London are given an allowance to maintain an extra home in London allowing them to live closer to the Houses of Parliament during the working week. Certain costs for this second home can be claimed and are thus partly funded by the taxpayer. MPs can nominate any of their other properties as the second home, which has tax advantages for not being their primary residence and can lead to additional allowances.&lt;/p&gt;
+&lt;p&gt;A navbar that’s there when you need it, and disappears when you don’t. Simple as that.&lt;/p&gt;
 
-&lt;p&gt;“Flipping” occurs when the nominated second and primary dwellings are frequently changed, particularly during the parliamentary recess. The dwelling may in fact be rented out for profit but still receive the allowances.&lt;/p&gt;
+&lt;h2 id=&quot;sticky-table-of-contents&quot;&gt;Sticky Table of Contents&lt;/h2&gt;
 
-&lt;p&gt;In some circumstances, MPs can simultaneously declare one home to be both their primary residence (for tax purposes) and their second residence (for expenses purposes).&lt;/p&gt;
+&lt;p&gt;Already a staple on so many sites on the web, this pattern is now also available in Hydejack. 
+What’s unique about it is that it simply picks up the table of contents already created by kramdown’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:toc}&lt;/code&gt; tag and transparently upgrades it to a fully dynamic version.&lt;/p&gt;
 
-&lt;p&gt;The practice ended on May 15, 2009 following publication of the Disclosure of expenses of Members of the United Kingdom Parliament after a public scandal.&lt;/p&gt;
+&lt;h2 id=&quot;and-much-more&quot;&gt;…and much more&lt;/h2&gt;
 
-&lt;h4 id=&quot;car-flipping&quot;&gt;Car flipping&lt;/h4&gt;
+&lt;p&gt;Other noteworthy changes include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support for Jekyll 4&lt;/li&gt;
+  &lt;li&gt;Choice between MathJax and KaTeX for math rendering&lt;/li&gt;
+  &lt;li&gt;Use of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll-include-cache&lt;/code&gt; for drastically improved page building speeds&lt;/li&gt;
+  &lt;li&gt;New variables configuration file — adjust content width, sidebar width, font size, etc…&lt;/li&gt;
+  &lt;li&gt;…and the option to disable grouping projects by year.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Similar to real estate flipping, car flipping is the process of buying automobiles at a low price and selling such vehicle at a higher price. A car flipper will identify reasonably priced vehicles that can be sold at a higher price after reconditioning and marketing to a larger market.&lt;/p&gt;
+&lt;p&gt;Read the the &lt;a href=&quot;/CHANGELOG/&quot; class=&quot;heading flip-title&quot;&gt;CHANGELOG&lt;/a&gt; for the full scope of features and improvements made in Hydejack 9.
+Maybe just glance at it to confirm that it is indeed a pretty long list.&lt;/p&gt;
 
-&lt;p&gt;In the United States, car flipping can be a hobby for car enthusiasts, or a primary business in the form of state licensed car dealers. Flipping cars is legal if the vehicles are titled in the person’s name or processed through a state licensed dealership. Many states have laws and regulation limiting the number of vehicles a person can flip within each year unless they are a dealer or associate. This number varies from state to state, from 2 to 10. Car flipping has a larger market and requires less investment than flipping real estate.&lt;/p&gt;
+&lt;h2 id=&quot;even-more-to-come&quot;&gt;Even More to Come&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://unsplash.it/960/350?image=655&quot; alt=&quot;&quot; width=&quot;960&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;New features for 9.1 are already lined up. Code block headers and code line highlights for even better technical blogging, as well as download buttons on the resume page for PDF, vCard, and Resume JSON are just around the corner.&lt;/p&gt;
 
-&lt;p&gt;Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/Flipping&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Flipping is a term used primarily in the US to describe purchasing a revenue-generating asset and quickly reselling it for profit.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://unsplash.it/600/450?image=448&amp;a=.png" /></entry></feed>
+&lt;h2 id=&quot;get-it-now&quot;&gt;Get It Now&lt;/h2&gt;
+&lt;p&gt;The Free Version of Hydejack is now availabe on &lt;a href=&quot;https://rubygems.org/gems/jekyll-theme-hydejack&quot;&gt;RubyGems&lt;/a&gt;
+and for the first time also on &lt;a href=&quot;https://github.com/hydecorp/hydejack/packages&quot;&gt;GitHub Packages&lt;/a&gt;. 
+The source code is available on &lt;a href=&quot;https://github.com/hydecorp/hydejack&quot;&gt;GitHub&lt;/a&gt; as always.&lt;/p&gt;
+
+&lt;!-- The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are open now:
+
+&lt;div class=&quot;gumroad-product-embed&quot; data-gumroad-product-id=&quot;nuOluY&quot;&gt;&lt;a href=&quot;https://gumroad.com/l/nuOluY&quot;&gt;Loading…&lt;/a&gt;&lt;/div&gt; --&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;If you are a fan of the old two-column layout, or don’t like modern design tropes such as mega headlines, Hydejack lets you revert these changes on a case-by-case basis via configuration options. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+
+      &lt;p&gt;Search was mainly tested for English and German. Please let me know about issues in other languages. 
+  While I’ve tried to find a multi-language solution, most showed drastically worse  results for the English base case.
+  If you’re technically inclined, you can adopt the code located in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes/js/search-worker.js&lt;/code&gt; to your needs. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>&lt;Qvious&gt; &lt;Inc.&gt;</name><email>&lt;admin@qvious.com&gt;</email></author><category term="news" /><summary type="html">Qvious is an ISDA SIMM2.2 Certified Vendor.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/ISDA_cert.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/ISDA_cert.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">큐비어스 국내 최초 ISDA 단위테스트 통과(매일경제 기사)</title><link href="http://localhost:4000/news/2019-11-29-mkarticle-isda/" rel="alternate" type="text/html" title="큐비어스 국내 최초 ISDA 단위테스트 통과(매일경제 기사)" /><published>2019-11-29T00:00:00+09:00</published><updated>2020-12-04T22:00:30+09:00</updated><id>http://localhost:4000/news/mkarticle-isda</id><content type="html" xml:base="http://localhost:4000/news/2019-11-29-mkarticle-isda/">&lt;p&gt;주식회사 큐비어스(Qvious)는 지난 11월 22일 큐비어스에서 개발한 &lt;strong&gt;개시증거금 산출시스템 ‘QvIM’&lt;/strong&gt;이 &lt;a href=&quot;#&quot;&gt; &lt;strong&gt;국내 최초&lt;/strong&gt;&lt;/a&gt;로 국제스왑파생상품협회 (The International Swaps and Derivatives Association, Inc: ISDA)의 표준 개시증거금 산출 모형인 SIMDA2.2의 단위테스트를 통과한 내용이 매일경제 신문에 기사로 소개되었습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.mk.co.kr/news/stock/view/2019/11/999445/&quot;&gt;기사원문&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/img/blog/mkarticle1.png&quot; alt=&quot;200x200&quot; title=&quot;https://www.mk.co.kr/news/stock/view/2019/11/999445/&quot; /&gt;&lt;/p&gt;</content><author><name>&lt;Qvious&gt; &lt;Inc.&gt;</name><email>&lt;admin@qvious.com&gt;</email></author><category term="news" /><summary type="html">주식회사 큐비어스(Qvious)는 지난 11월 22일 큐비어스에서 개발한 개시증거금 산출시스템 ‘QvIM’이 국내 최초로 국제스왑파생상품협회 (The International Swaps and Derivatives Association, Inc: ISDA)의 표준 개시증거금 산출 모형인 SIMDA2.2의 단위테스트를 통과한 내용이 매일경제 신문에 기사로 소개되었습니다.</summary></entry><entry><title type="html">주식회사 큐비어스 설립</title><link href="http://localhost:4000/news/2019-10-04-foundation/" rel="alternate" type="text/html" title="주식회사 큐비어스 설립" /><published>2019-10-04T00:00:00+09:00</published><updated>2020-12-04T22:13:39+09:00</updated><id>http://localhost:4000/news/foundation</id><content type="html" xml:base="http://localhost:4000/news/2019-10-04-foundation/">&lt;p&gt;&lt;strong&gt;큐비어스 사업수행 실적&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2020/05 ~ 2021/02 한국씨티은행(CKI) KRX-TR Reporting system development&lt;/li&gt;
+  &lt;li&gt;2019/11 ~ 2020/02 신용보증기금(KODIT) e-Demas 실시간 구상권 관리 시스템 리모델링&lt;/li&gt;
+  &lt;li&gt;2019/11 ~ 2020/02 아름드리자산운용(Arumdree Asset Management) Hedge trading back test system&lt;/li&gt;
+  &lt;li&gt;2019/12 ~ 2020/03 미쓰비시UFJ은행(MUFG Bank) KRX-TR Reporting system consulting&lt;/li&gt;
+  &lt;li&gt;2019/11 ~ 2020/07 한국씨티은행(CKI) KRX-TR Reporting system consulting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; elements&lt;/h2&gt;
+
+&lt;p&gt;&lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**To bold text**&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*To italicize text*&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; should be defined like this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*[HTML]: HyperText Markup Language&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~~deleted~~&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;return a + b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Upvotes&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Alice&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bob&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Charlie&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Totals&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;21&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;</content><author><name>&lt;Qvious&gt; &lt;Inc.&gt;</name><email>&lt;admin@qvious.com&gt;</email></author><category term="news" /><summary type="html">큐비어스 사업수행 실적 2020/05 ~ 2021/02 한국씨티은행(CKI) KRX-TR Reporting system development 2019/11 ~ 2020/02 신용보증기금(KODIT) e-Demas 실시간 구상권 관리 시스템 리모델링 2019/11 ~ 2020/02 아름드리자산운용(Arumdree Asset Management) Hedge trading back test system 2019/12 ~ 2020/03 미쓰비시UFJ은행(MUFG Bank) KRX-TR Reporting system consulting 2019/11 ~ 2020/07 한국씨티은행(CKI) KRX-TR Reporting system consulting</summary></entry></feed>

@@ -1,378 +1,854 @@
 <!DOCTYPE html>
+<html lang="en"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
 
-<html lang="en">
-<meta charset="utf-16">
+Powered by Hydejack v9.0.4 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="큐비어스 장외파생상품 운용지원 기술 및 분석도구 제공">
-    <meta name="author" content="큐비어스 주식회사">        
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Qvious, Inc.">
-    <meta property="og:description" content="장외파생상품 운용지원">
-    <meta property="og:image" content="img/touch-icon.png">
-    <meta property="og:url" content="http://www.qvious.com">
-
-    <title>Qvious, Inc. | 큐비어스 장외파생상품 운용지원</title>
-    
-    
-    <meta name="google-site-verification" content="QwEu2swp0H27aRMMb1uPLAgKy2bzlDGnPqPpKF3yurA" />
-		<meta name="naver-site-verification" content="ff079caa71959e59ef6c94208079dc9d1283c49b"/>				
-
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-
-		<!-- ICON -->
-		<link rel="icon" type="image/png" href="img/touch-icon.png" sizes="192x192">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-
-<body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" style="font-size:25px;text-transform: capitalize" href="#page-top">Qvious</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">        
-                <li>
-                    <a class="page-scroll" href="#news">NEWS</a>
-                </li>        
-                <li>
-                    <a class="page-scroll" href="#services">SERVICES</a>
-                </li>
-                <!-- <li>
-                    <a class="page-scroll" href="#products">PRODUCTS</a>
-                </li> -->
-                <li>
-                    <a class="page-scroll" href="#aboutus">ABOUT US</a>
-                </li>
-                <!-- <li>
-                    <a class="page-scroll" href="#news">NEWS</a>
-                </li> -->
-                <li>
-                    <a class="page-scroll" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-        
-</nav>
-
-  <header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>
-                Specialists in financial technologies for OTC market
-            </h1>
-            <hr>
-            <h3>Find the most efficient way with Qvious !</h3>
-            <Br>           
-            <a href="#services" class="btn btn-primary btn-xl page-scroll">Find out more</a>
-        </div>
-    </div>
-</header>
   
-  <section id="news">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">News</h2>
-                <hr class="primary">
-            </div>
-        </div>
-    </div>
-    
-    <div class="container-fluid">
-        <div class="row no-gutter">
-            <div class="col-lg-8 col-lg-offset-2  text-center" style="align-content:center">                                     
-                <h3>Qvious is an ISDA SIMM2.2 Certified Vendor</h3>   
-                <div id="mk-root" style="position:relative; text-align:justify ;  clear: both; font-size: 15px; line-height: 28px; margin:0 ; padding: 5px; border: 1px solid #CCC;color: #333; display: block;">                             
-                    <h2 style="margin: 0; border: 0; text-align: left;background: #ff7800;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 20px;padding: 8px 0;margin-bottom: 15px;color: #FFF;width: 100%;text-align: center;"> MK NEWS </h2> 
-                    <h3 style="font-size: 24px;line-height: 29px;letter-spacing: -1px; margin: 0;padding: 0; border: 0;text-align: justify;">
-                        <a href="https://www.mk.co.kr/news/stock/view/2019/11/999445/" target="_blank">큐비어스, 국내 최초 비청산 장외파생상품 증거금 모형 “SIMM2.2” 단위테스트 통과 - 매일경제</a>
-                    </h3><br>                         
-                    <div style="overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4; -webkit-box-orient: vertical; word-wrap:break-word;margin: 0;padding: 0; border: 0;font-size: 100%;"> 
-                        <a href="https://www.mk.co.kr/news/stock/view/2019/11/999445/" target="_blank">요약-주식회사 큐비어스(qvious)는 지난 11월 22일 큐비어스에서 개발한 개시증거금 산출시스템 ‘QvIM’이 국내 최초로 국제스왑파생상품협회 (The International Swaps and Derivatives Association, Inc: ISDA)의 표준 개시증거금 산출 모형인 SIMM2.2</a> 
-                    </div> <br><span class="box_pop1_by" style=" margin: 0;padding: 0;border: 0;font-size: 100%;"><a href="https://www.mk.co.kr/news/stock/view/2019/11/999445/">기사 원문보기</a></span> 
-                </div>                    
-            </div>
-        </div>         
-    </div> 
-</section>
 
-  <section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">At your services</h2>
-                <hr class="primary">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-calculator wow bounceIn text-primary"></i>
-                    <h3>Pricing Engine</h3>
-                    <p class="text-muted">Advanced Valuation Models for Derivatives Pricing</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-archive wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Trade Repository</h3>
-                    <p class="text-muted">Consulting & Development for KRX Reporting Systems</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-exchange wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Margin Calculation</h3>
-                    <p class="text-muted">Variation Margin & Initial Margin</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-bar-chart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Risk Management</h3>
-                    <p class="text-muted">Sensitivities, Stress Test, VaR, and XVAs</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-  <section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Qvious offers the best solution for our clients</h2>
-                <Br>
-                <hr class="light">
-                <Br>
-<h2>Our Philosophy</h2>
-                <h3 class="text-faded">Based on professional knowledge,</h3>
-                <h3 class="text-faded">Enthusiastic teamwork,</h3>
-                <h3 class="text-faded">& Trustworthy partner</h3>
-                <!--
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
-                -->
-            </div>
-        </div>
-    </div>
-</section>
+
+
+
 
   
-<section id="aboutus">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">About us</h2>
-                <hr class="primary">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row no-gutter">
-            <div class="col-lg-12 col-sm-12"  style="align-content:center">
-                <a class="portfolio-box">
-                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                CEO
-                            </div>
-                            <div class="project-name">Keunho Hwang </div>
-                            <Br>
-                            <div class="project-category text-faded" style="text-transform: capitalize">Meritz Securities</div>
-                            <div class="project-category text-faded" style="text-transform: capitalize">Daishin Securities</div>
-                            <div class="project-category text-faded" style="text-transform: capitalize">Ph.D in Finance (KAIST)</div>
-                            <div class="project-category text-faded" style="text-transform: capitalize">BA in Econ. (Seoul National Univ.)</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+    
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Blog | Qvious, Inc.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Blog" />
+<meta name="author" content="<Qvious> <Inc.>" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The official Qvious, Inc. page with Jekyll. last_modified_at: 2018-08-03" />
+<meta property="og:description" content="The official Qvious, Inc. page with Jekyll. last_modified_at: 2018-08-03" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Qvious, Inc." />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Blog" />
+<script type="application/ld+json">
+{"headline":"Blog","dateModified":"2020-11-19T18:05:37+09:00","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon-192x192.png"},"name":"<Qvious> <Inc.>"},"author":{"@type":"Person","name":"<Qvious> <Inc.>"},"description":"The official Qvious, Inc. page with Jekyll. last_modified_at: 2018-08-03","name":"Qvious, Inc.","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+    <meta name="keywords" content="Quant,Pricing,Curve">
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Qvious, Inc.">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="Qvious, Inc.">
+
+
+  <meta name="theme-color" content="rgb(8,46,57)">
+
+
+<meta name="generator" content="Hydejack v9.0.4" />
+
+
+<link rel="alternate" href="http://localhost:4000/news/2019-10-04-foundation/" hreflang="en">
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Qvious, Inc." />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+
+  
+  <link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css" id="_katexPreload">
+  <noscript><link rel="stylesheet" href="/assets/bower_components/katex/dist/katex.min.css"></noscript>
+
+
+
+
+
+<script>!function(e,t){"use strict";function n(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}e.loadJS=function(e,o){var r=t.createElement("script");r.src=e,o&&n(r,"load",o,{once:!0});var a=t.scripts[0];return a.parentNode.insertBefore(r,a),r},e._loaded=!1,e.loadJSDeferred=function(o,r){function a(){e._loaded=!0,r&&n(c,"load",r,{once:!0});var o=t.scripts[0];o.parentNode.insertBefore(c,o)}var c=t.createElement("script");return c.src=o,e._loaded?a():n(e,"load",a,{once:!0}),c},e.setRel=e.setRelStylesheet=function(e){function o(){this.rel="stylesheet"}n(t.getElementById(e),"load",o,{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+}(window);
+</script>
+
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.0.4.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);--accent-color-darkened: #409ba3;--theme-color: rgb(8,46,57)}
+
+</style>
+
+
+<!--<![endif]-->
 
 
 <!--
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+Code used for embedding Gumroad on the Hydejack Site. 
+Left here for reference, feel free to delete.
 -->
-  <section id="contact">
-    <a name='contact'></a>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Get in touch!</h2>
-                <hr class="primary">
-                <p>Please send us a message, and we'll be in contact shortly. We welcome inquiry messages with open arms.</p>
-            </div>
-       <!-- <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://twitter.com/">
-                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p></p>
-            </a>
-        </div> -->        
-        <div class="col-lg-12 text-center">        
-            <a href="mailto:admin@qvious.com">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>admin@qvious.com</p>
-            </a>
-        </div>
-        <!-- <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="https://qvious.github.io">
-            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>qvious</p>
-            </a>
-        </div>				 -->
+<!-- <link rel="dns-prefetch" href="https://assets.gumroad.com"> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" crossorigin="anonymous">
+<link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css" type="text/css">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="../../css/animate.min.css" type="text/css">
+
+<script type="module">
+  let p;
+  const promisify = f => x => new Promise(r => f(x).addEventListener('load', r));
+  const loadJS = promisify(window.loadJS);
+  document.querySelector('hy-push-state').addEventListener('load', () => {
+    const io = new IntersectionObserver(async (entries) => {
+      if (entries.some(x => x.isIntersecting)) {
+        p = p || loadJS('https://gumroad.com/js/gumroad-embed.js');
+        await p;
+        if (!window.GumroadEmbed) {
+          await new Promise(function check1(res) {
+            if ('createGumroadEmbed' in window) res(window.createGumroadEmbed());
+            else setTimeout(() => check1(res), 200);
+          });
+        }
+        await new Promise(function check2(res) {
+          if ('GumroadEmbed' in window) res(GumroadEmbed.reload());
+          else setTimeout(() => check2(res), 200);
+        });
+      }
+    }, { rootMargin: '1440px' });
+    document.querySelectorAll('.gumroad-product-embed').forEach(el => io.observe(el));
+  });
+</script>
+<script type="module">
+  let p;
+  const promisify = f => x => new Promise(r => f(x).addEventListener('load', r));
+  const loadJS = promisify(window.loadJS);
+  document.querySelector('hy-push-state').addEventListener('load', () => {
+    const io = new IntersectionObserver(async (entries) => {
+      if (entries.some(x => x.isIntersecting)) {
+        p = p || loadJS('https://gumroad.com/js/gumroad.js');
+        await p;
+        if (!window.GumroadOverlay) {
+          await new Promise(function check(res) {
+            if ('createGumroadOverlay' in window) res(window.createGumroadOverlay());
+            else setTimeout(() => check(res), 200);
+          });
+        }
+      }
+    }, { rootMargin: '300px' });
+    document.querySelectorAll('.gumroad-button').forEach(el => io.observe(el));
+  });
+</script> 
+
+</head>
+
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  <hy-drawer
+  id="_drawer"
+  class="cover"
+  side="left"
+  threshold="10"
+  noscroll
+  opened
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(8,46,57);background-image:url(/assets/img/header.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+      <a class="no-hover" href="/" tabindex="-1">
+        <img src="/assets/icons/icon-192x192.png" class="avatar" alt="Qvious, Inc." width="120" height="100" loading="lazy" />
+      </a>
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">Qvious, Inc.</h2></a>
+    
+    
+      <p class="">
+        장외파생상품 운용지원
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_drawer--opened"
+          href="/services/"
+          class="sidebar-nav-item"
+          
+        >
+          Services
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/news/"
+          class="sidebar-nav-item"
+          
+        >
+          News
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/docs/"
+          class="sidebar-nav-item"
+          
+        >
+          Research
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/about/"
+          class="sidebar-nav-item"
+          
+        >
+          About us
+        </a>
+      </li>
+    
+  
+</ul>
+
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>        
+    <a href="https://blog.naver.com/qvious2019" title="Naver Blog" class="no-mark-external" target="_blank" >
+    <span class="icon-quill"></span>
+    <span class="sr-only">Naver Blog</span>    
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>        
+    <a href="https://github.com/KaistLecture" title="GitHub" class="no-mark-external" target="_blank" >
+    <span class="icon-github"></span>
+    <span class="sr-only">GitHub</span>    
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>        
+    <a href="mailto:<admin@qvious.com>" title="Email" class="no-mark-external" target="_blank" >
+    <span class="icon-mail"></span>
+    <span class="sr-only">Email</span>    
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
     </div>
-</section>
+  </div>
+</div>
+<hr class="sr-only" hidden />
 
-  <footer>
-	<!-- <div class="container">		
-		<p class="editor-link"><a href="_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
-		<div class="footer-columns">
-			
-			</ul>
-		</div>
-	</div> -->
+  <main
+  id="_main"
+  class="content layout-blog"
+  role="main"
+>
+  
 
-	<div class="legal-line">
-		<p class="container" style="font-size: 12px">
-			&copy; 2020 <!-- &bull; -->
-			Qvious &bull; All rights reserved. This website uses Cookies. Continued use of the site will be deemed as your acceptance of this necessity. Qvious respects your privacy and never collects personally identifiable information. Please read our
-			<a href="/terms/">Terms of use</a>.			
-			Template by <a href="https://github.com/volny/creative-theme-jekyll">creative-theme-jekyll</a> & <a href="https://suekwon.github.io/">suekwon</a>
-		</p>
-	</div>
+
+  
+
+  
+
+
+
+
+
+<article id="post-news-introducing" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/news/2020-07-03-introducing/" class="flip-title">
+        Introducing Qvious,Inc.
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <time datetime="2020-07-03T00:00:00+09:00">03 Jul 2020</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+in <a href="/news/" class="flip-title">News</a>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+      <a href="/news/2020-07-03-introducing/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/ISDA_cert.png"
+  
+  alt="Introducing Qvious,Inc."
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      source: ISDA homepage
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p class="lead">Qvious is an ISDA SIMM2.2 Certified Vendor.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/news/2020-07-03-introducing/">Introducing Qvious,Inc.</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+
+
+
+<article id="post-news-mkarticle-isda" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/news/2019-11-29-mkarticle-isda/" class="flip-title">
+        큐비어스 국내 최초 ISDA 단위테스트 통과(매일경제 기사)
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <time datetime="2019-11-29T00:00:00+09:00">29 Nov 2019</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+in <a href="/news/" class="flip-title">News</a>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+
+    
+
+
+
+  <div class="hr pb0"></div>
+
+
+  </header>
+
+  
+    <p>주식회사 큐비어스(Qvious)는 지난 11월 22일 큐비어스에서 개발한 <strong>개시증거금 산출시스템 ‘QvIM’</strong>이 <a href="#"> <strong>국내 최초</strong></a>로 국제스왑파생상품협회 (The International Swaps and Derivatives Association, Inc: ISDA)의 표준 개시증거금 산출 모형인 SIMDA2.2의 단위테스트를 통과한 내용이 매일경제 신문에 기사로 소개되었습니다.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/news/2019-11-29-mkarticle-isda/">큐비어스 국내 최초 ISDA 단위테스트 통과(매일경제 기사)</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+
+
+
+<article id="post-news-foundation" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/news/2019-10-04-foundation/" class="flip-title">
+        주식회사 큐비어스 설립
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <time datetime="2019-10-04T00:00:00+09:00">04 Oct 2019</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+in <a href="/news/" class="flip-title">News</a>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      주식회사 큐비어스(Qvious, Inc.) 최초 설립
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p><strong>큐비어스 사업수행 실적</strong></p>
+<ul>
+  <li>2020/05 ~ 2021/02 한국씨티은행(CKI) KRX-TR Reporting system development</li>
+  <li>2019/11 ~ 2020/02 신용보증기금(KODIT) e-Demas 실시간 구상권 관리 시스템 리모델링</li>
+  <li>2019/11 ~ 2020/02 아름드리자산운용(Arumdree Asset Management) Hedge trading back test system</li>
+  <li>2019/12 ~ 2020/03 미쓰비시UFJ은행(MUFG Bank) KRX-TR Reporting system consulting</li>
+  <li>2019/11 ~ 2020/07 한국씨티은행(CKI) KRX-TR Reporting system consulting</li>
+</ul>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/news/2019-10-04-foundation/">주식회사 큐비어스 설립</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+
+
+  <h2 class="sr-only">Pagination</h2>
+<nav class="pagination heading clearfix" role="navigation">
+  <ul>
+    <li class="pagination-item older" >
+      
+      
+      
+  <span class=" ">Older</span>
+
+
+    </li>
+    <li class="pagination-item newer" >
+      
+      
+      
+  <span class=" ">Newer</span>
+
+
+    </li>
+  </ul>
+</nav>
+
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2020 Qvious • All rights reserved. Qvious respects your privacy and never collects personally identifiable information. Please read our Terms of use. Template by jekyll-theme-hydejack &amp; <a class="external" href="https://suekwon.github.io/" target="_blank">suekwon</a>.
+</small></p>
+  
+  
+    <!-- <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.0.4</span></small></p> -->
+  <hr class="sr-only"/>
 </footer>
-  <!-- jQuery -->
-<script src="js/jquery.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
 
-<!-- Plugin JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.fittext.js"></script>
-<script src="js/wow.min.js"></script>
+</main>
 
-<!-- Custom Theme JavaScript -->
-<script src="js/creative.js"></script>
- 
+  
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var e=document.createElement("script");if(!("noModule"in e)&&"onbeforeload"in e){var t=!1;document.addEventListener("beforeload",function(n){if(n.target===e)t=!0;else if(!n.target.hasAttribute("nomodule")||!t)return;n.preventDefault()},!0),e.type="module",e.src=".",document.head.appendChild(e),e.remove()}}();
+</script>
+  <script src="/assets/js/hydejack-9.0.4.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.0.4.js" nomodule defer></script>
+  <script src="/assets/js/wow.min.js"></script>
+  
+
+  
+
+<!--<![endif]-->
+  <!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_forward-template">
+  <button id="_forward" class="forward nav-btn no-hover">
+    <span class="sr-only">Forward</span>
+    <span class="icon-arrow-right2"></span>
+  </button>
+</template>
+
+  <template id="_back-template">
+  <button id="_back" class="back nav-btn no-hover">
+    <span class="sr-only">Back</span>
+    <span class="icon-arrow-left2"></span>
+  </button>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+</div>
+
+
 </body>
-
 </html>
