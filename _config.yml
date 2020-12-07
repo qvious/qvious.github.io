@@ -54,10 +54,10 @@ menu:
     url:      /services/  
   - title:     News 
     url:      /news/
-  - title:     About us
-    url:      /members/
   - title:     Research
     url:      /docs/
+  - title:     About us
+    url:      /aboutus/    
 
 
 # Add links to the footer.
