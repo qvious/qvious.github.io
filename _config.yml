@@ -224,7 +224,7 @@ hydejack:
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
   # Run Jekyll with the `JEKYLL_ENV` environment variable set to `production` to enable.
-  no_search:           false
+  no_search:           true
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
@@ -374,32 +374,6 @@ plugins:
 #     - https://twitter.com/<username>
 #     - https://github.com/<username>
 
-
-# Plugin Configs
-# ---------------------------------------------------------------------------------------
-optional_front_matter:
-  remove_originals:    true
-
-readme_index:
-  remove_originals:    true
-  with_frontmatter:    true
-
-relative_links:
-  collections:         true
-
-titles_from_headings:
-  strip_title:         true
-  collections:         true
-
-compress_html:
-  comments:            ["<!-- ", " -->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
-
-sass:
-  style:               compressed
 
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
