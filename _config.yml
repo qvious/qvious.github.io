@@ -54,10 +54,10 @@ menu:
     url:      /services/  
   - title:     News 
     url:      /news/
-  - title:     Research
-    url:      /docs/
-  - title:     About
+  - title:     About us
     url:      /members/
+    - title:     Research
+    url:      /docs/
   - title:    " "
     url:      /_blank/
 
