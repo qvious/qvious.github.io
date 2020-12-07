@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Members
+title: About us
 no_groups: true
 
 description: >
