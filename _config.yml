@@ -61,13 +61,15 @@ menu:
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-# legal:
-#   - title:             LICENSE
-#     url:               /LICENSE/
-#   - title:             NOTICE
-#     url:               /NOTICE/
-#   - title:             CHANGELOG
-#     url:               /CHANGELOG/
+legal:
+  - title:             Services
+    url:               /services/
+  - title:             News
+    url:               /news/
+  - title:             Research
+    url:               /docs/
+  - title:             About us
+    url:               /members/    
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2020 Qvious • All rights reserved. Qvious respects your privacy and never collects personally identifiable information. Please read our Terms of use. Template by [jekyll-theme-hydejack](https://hydejack.com/" target="_blank") & <a class="external" href="https://suekwon.github.io/" target="_blank">suekwon</a>.
@@ -94,7 +96,7 @@ collections:
 
   projects:
     permalink:         /projects/:path/
-    output:            true
+    output:            false
 
 
 # Theme
@@ -226,7 +228,7 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
-  no_inline_css:       false
+  no_inline_css:       true
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
