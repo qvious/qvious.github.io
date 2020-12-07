@@ -22,14 +22,14 @@ hide_description: true
 ![Screenshot](assets/img/blog/1.jpg){:width="260" height="190.4" loading="lazy"}
 
 ### Sue-Jeong Kwon (QFIT Director)
-* Ph.D., Industrial Engineering, Seoul National Univ.
-* M.S., Industrial Engineering, Seoul National Univ.
-* B.A., Computer Science, Seoul National Univ.
-
+* Research professor, Korea polytechnic university
+* SW Engineer, LG CNS
+* M.S. / Ph.D., Industrial Engineering, Seoul National Univ.
+* B.S., Computer Science, Seoul National Univ.
 
 ### Yujin Hur (Data Analyst)
 * Analyst, Korea asset pricing     
-* B.A., Financial Engineering, Ajou Univ. 
+* B.S., Financial Engineering, Ajou Univ. 
 
 
 ### Kwanghyun Yi (Data Analyst)
