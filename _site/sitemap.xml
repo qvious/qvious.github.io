@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/members/</loc>
-<lastmod>2020-12-07T17:22:46+09:00</lastmod>
+<loc>http://localhost:4000/about/</loc>
+<lastmod>2020-12-07T17:54:45+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/services/</loc>
 <lastmod>2020-12-05T05:48:21+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
-<lastmod>2020-12-07T17:09:02+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

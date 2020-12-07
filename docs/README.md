@@ -16,17 +16,17 @@ While this manual tries to be beginner-friendly.
 
 
 ## Quant finance
+* [Pricing]{:.heading.flip-title} ---  Quantitive pricing of derivative instruments
+* [Buildcurve]{:.heading.flip-title} ---  How to build curves for pricing of financial instruments.
 * [C++/Python]{:.heading.flip-title} --- How to code and run quant tool.
-* [Buildcurve]{:.heading.flip-title} ---  How to build the curves for financial developement.
 {:.related-posts.faded}
 <!-- * [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file. -->
 
 
 ## Data science
-* [Build]{:.heading.flip-title} --- How to build the curves for financial developement.
 * [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
 * [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
+* [Writing]{:.heading.flip-title} --- Producing markdown content.
 * [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
 {:.related-posts.faded}
 
@@ -36,6 +36,7 @@ While this manual tries to be beginner-friendly.
 * [CP]{:.heading.flip-title} --- Constraint Programming
 {:.related-posts.faded}
 
+[Pricing]: #
 [C++/Python]: C++Python.md
 [buildcurve]: buildcurve.md
 [config]: config.md
@@ -44,6 +45,6 @@ While this manual tries to be beginner-friendly.
 [scripts]: scripts.md
 [build]: buildcurve.md
 [advanced]: advanced.md
-[IP]: ../LICENSE.md
-[LP]: ../NOTICE.md
-[CP]: ../CHANGELOG.md
+[IP]: #../LICENSE.md
+[LP]: #../NOTICE.md
+[CP]: #../CHANGELOG.md

@@ -1,7 +1,7 @@
 ---
-layout: about
+layout: page
 title: About us
-image: /assets/img/blog/1.jpg
+image: ../assets/img/blog/1.jpg
 description: >
   *Team of specialists in financial technologies for OTC market*
 hide_description: true
@@ -19,7 +19,7 @@ hide_description: true
 * Ph.D., Finance, KAIST <br>
 * B.A., Economics, Seoul National Univ.
 
-![Screenshot](assets/img/blog/1.jpg){:width="260" height="190.4" loading="lazy"}
+![Screenshot](../assets/img/blog/1.jpg){:width="260" height="190.4" loading="lazy"}
 
 ### Sue-Jeong Kwon (QFIT Director)
 * Research professor, Korea polytechnic university

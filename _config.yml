@@ -57,7 +57,7 @@ menu:
   - title:     Research
     url:      /docs/
   - title:     About us
-    url:      /members/
+    url:      /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
