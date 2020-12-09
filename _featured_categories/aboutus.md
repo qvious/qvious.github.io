@@ -14,7 +14,7 @@ hide_description: true
 ## Keunho Hwang (CEO) 
 * Meritz Securities     <br>
 * Daishin Securities    <br>
-* Ph.D., Finance, KAIST <br>
+* M.S. / Ph.D., Finance, KAIST <br>
 * B.A., Economics, Seoul National Univ.
 
 ![Screenshot](../assets/img/blog/1.jpg){:width="260" height="190.4" loading="lazy"}
