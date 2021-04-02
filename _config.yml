@@ -30,7 +30,7 @@ description:           >
   Enthusiastic teamwork, & Trustworthy partner. 
 
 # A shorter description for the sidebar.
-tagline:               장외파생상품 운용지원 
+tagline:               Finance & Tech<br> 기술을 통한 금융 산업의 혁신을 선도합니다
 
 # A list of keywords for your blog
 keywords:              ['Quant', 'Pricing', 'Curve']
@@ -97,7 +97,7 @@ collections:
 
   projects:
     permalink:         /projects/:path/
-    output:            false
+    output:            true
 
 
 # Theme
