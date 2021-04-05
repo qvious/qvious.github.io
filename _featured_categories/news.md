@@ -24,7 +24,7 @@ sitemap: false
 
 ---
 #### *Find the most efficient way with Qvious!*
-> _"큐비어스는 **금융 상품의 가치 평가**와 **금융 리스크관리**와 더불어 금융규제에 대응하는_ <br>
+> _"큐비어스는 **금융 상품의 가치 평가**와 **금융 리스크관리**와 더불어 <br> 금융규제에 대응하는_
 > _**RegTech솔루션**을 제공합니다."_
 ![Screenshot](../assets/img/3.jpg)
 <!-- {:width="260" height="190.4" loading="lazy"} -->
