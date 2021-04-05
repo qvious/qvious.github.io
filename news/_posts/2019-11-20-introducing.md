@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Qvious,Inc.
+title: ISDA SIMM2.2 Certified Vendor
 # categories: [news]
 image: /assets/img/blog/ISDA_cert.png
 description: >
