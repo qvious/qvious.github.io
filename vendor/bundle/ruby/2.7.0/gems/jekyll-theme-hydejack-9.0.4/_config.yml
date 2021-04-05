@@ -67,7 +67,7 @@ compress_html:
   clippings:           all
   endings:             all
   ignore:
-    envs:              [development]
+    envs:              [qvious]
 
 sass:
   style:               compressed

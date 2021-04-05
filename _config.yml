@@ -33,7 +33,7 @@ description:           >
 tagline:               Finance & Tech<br> 기술을 통한 금융 산업의 혁신을 선도합니다
 
 # A list of keywords for your blog
-keywords:              ['Quant', 'Pricing', 'Curve']
+keywords:              ['Quant', 'Pricing', 'Portfolio', 'Risk']
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -202,8 +202,8 @@ kramdown:
 # These settings are specific to Hydejack.
 
 hydejack:
-  # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  # Configure the order of complementary content on blog posts [about, newsletter, related, random, comments]
+  post_addons:         [newsletter, related]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other, comments]
@@ -225,7 +225,7 @@ hydejack:
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
   # Run Jekyll with the `JEKYLL_ENV` environment variable set to `production` to enable.
-  no_search:           true
+  no_search:           false
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
@@ -283,7 +283,7 @@ hydejack:
     dynamic:           true
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              false
+    icon:              true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
@@ -428,7 +428,7 @@ compress_html:
   clippings:           all
   endings:             all
   ignore:
-    envs:              [development]
+    envs:              [qvious]
 
 sass:
   style:               compressed
