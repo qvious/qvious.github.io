@@ -41,7 +41,35 @@ This chapters shows how to allocate financial instruments.
 ### Mean-Variance 
 
 ### Black-Litterman
-  
+
+본 내용은 'A step by step guide to Black-Litterman Model(2002)'을 기반으로 작성하였습니다.
+{:.note}
+Black Litterman 모델은 1990년 골드만삭스의 피셔블랙(Fischer Black)과 로버트 리터만(Robert Litterman)에 의해 개발된 포트폴리오 배분을 위한 수학적 모형이다.
+이 모형은 자산배분이 가능한 모든 자산은 시장가치에 비례한다는 균형가정 (Equilibruim)과 투자자의 시장전망 (View)를 고려하여 맞춤식 자산배분이 가능하다.
+![black-litterman](/assets/img/docs/assetallocation/image1.png)
+
+---
+
+블랙리터만모형은 베이지안 통계에 기반하여 시장에서의 정보(Implied Equilibrium Return)와 수익률에 대한 투자자의 전망(Investor's View)을 결합하여 새로운 기대수익률(New Combined Expected Return)을 도출한다.
+* **Black-Litterman Formula** <br>
+  $$ E[R] =[(\tau\Sigma)^{-1} + P'\Omega^{-1} P]^{-1} [(\tau\Sigma)^-1 + P'\Omega^{-1} Q] $$
+  > $$ \tau $$ : risk adjustment scalar <br>
+  > $$ \Sigma $$ : Covariance Matrix of excess returns <br>
+  > $$ P $$ : Matrix that identifies the asset involved in the views <br>
+  > $$ Q $$ : View Vector <br>
+  > $$ \Omega $$ : diagonal covariance matrix of view's error terms <br>
+* **Calculate Equilibrium Return** <br>
+블랙 리터만 모형의 첫 번째 과정은 시장 포트폴리오 비율로부터 시장에 내재되어있는 기대수익률을 계산한다.<br> 역최적화(inverse optimization)을 통하여 기대수익률에 대한 시장의 분포를 도출하기 위한 과정이다.
+  * Implied Equilibrium Return    
+  $$ \Pi = \lambda\Sigma w_{mkt} $$
+  > $$ w_{mkt} $$ : Market capitalization weights <br>
+  > $$ \lambda $$ : Risk aversion, $$ \lambda = {(E(r) - r_f)\over \sigma^2} $$ <br>
+  > $$ \Sigma $$ : Covariance matrix <br>
+
+*  **Investor's View**
+ 
+
+
 ### DP(Dynamic Programming)
 
 ### RO(Robust Optimization)
