@@ -41,7 +41,9 @@ This chapters shows how to allocate financial instruments.
 ### Mean-Variance 
 
 ### Black-Litterman
-  
+
+{% include_relative upgrade.md %}
+
 ### DP(Dynamic Programming)
 
 ### RO(Robust Optimization)

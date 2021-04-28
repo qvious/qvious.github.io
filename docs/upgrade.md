@@ -16,14 +16,14 @@ Before upgrading to v7+, make sure you've read the [CHANGELOG](../CHANGELOG.md){
 especially the part about the [license change](../CHANGELOG.md#license-change)!
 {:.note}
 
-## Free version
+#### Free version
 Upgrading the free version of the theme is as easy as running
 
 ```bash
 bundle update jekyll-theme-hydejack
 ```
 
-## PRO Version
+#### PRO Version
 
 In v9, the structure of Hydejack PRO sites has changed. If you're looking to upgrade from v8 or earlier, 
 check out [Installation for existing sites](./install.md#existing-sites) instead.
@@ -40,15 +40,15 @@ If you've modified any of Hydejack's files in `#jekyll-theme-hydejack`, your cha
 and you have to apply them again. Make sure you've made a backup before overwriting any files.
 {:.note}
 
-## GitHub Pages
-### GH Pages + Free Version
+#### GitHub Pages
+##### GH Pages + Free Version
 When building on GitHub Pages, upgrading Hydejack is as simple as setting the `remote_theme` key in `_config.yml` to the latest version:
 
 ```yml
 remote_theme: hydecorp/hydejack@v9.0.5
 ```
 
-### GH Pages + PRO Version
+#### GH Pages + PRO Version
 This confiugration is the most difficult to upgrade because we've mashed our content and theme files together. 
 For the most part you have to [follow the steps for the installation](./install.md#gh-pages--pro-version) again. 
 
@@ -56,5 +56,5 @@ Keep in mind that, if you've made changes to any theme files, they will be overw
 Make sure you don't override them accidentally (you can use git to restore them).
 
 
-Continue with [Config](config.md){:.heading.flip-title}
+Continue with [Table of contents](/docs/1-2_assetalloc/){:.heading.flip-title}
 {:.read-more}
