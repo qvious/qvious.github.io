@@ -82,6 +82,9 @@ wrapping 하려는 함수를 BOOST_PYTHON_MODULE 에서 다음과 같이 선언�
 ![env4](/assets/img/docs/c++python/image4.png) 
 
 
+Back to [Table of contents](/docs/1-3_C++Python){:.heading.flip-title}
+{:.read-more}
+
 ## C++ Boost 를 이용해 Python Extension 만들기2 (클래스 이용하기) 
 
 아래 본문은 boost 공식 문서를 발췌하여 작성되었습니다.
@@ -176,3 +179,7 @@ BOOST_PYTHON_MODULE(pyd_test)
 ```
 
 변수는 readonly 와 read/write 로 구분하여 내보내기할 수 있다.
+
+
+Back to [Table of contents](/docs/1-3_C++Python){:.heading.flip-title}
+{:.read-more}

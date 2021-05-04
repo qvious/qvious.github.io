@@ -248,7 +248,8 @@ int main(int argc, const char* argv[]) {
 {:.note} -->
 
 
-Continue with [Buildcurve](buildcurve.md){:.heading.flip-title}
+Back to [Table of contents](/docs/1-1_pricing){:.heading.flip-title}
 {:.read-more}
+
 
 [upgrade]: upgrade.md
