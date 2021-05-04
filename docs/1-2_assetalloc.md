@@ -44,9 +44,9 @@ This chapters shows how to allocate financial instruments.
 
 {% include_relative 1-2-3-2_BL.md %}
 
-### DP(Dynamic Programming)
+### DP (Dynamic Programming)
 
-### RO(Robust Optimization)
+### RO (Robust Optimization)
 
 
 <!--
