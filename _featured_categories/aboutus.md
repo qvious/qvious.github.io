@@ -19,8 +19,8 @@ hide_description: true
 
 ![Screenshot](../assets/img/blog/1.jpg){:width="260" height="190.4" loading="lazy"}
 
-### Sue-Jeong Kwon (QFIT Director)
-* Research professor, Korea polytechnic university
+### Sue-Jeong Kwon (QFC Director)
+* Lecturer, Sunghin women's university
 * SW Engineer, LG CNS
 * M.S. / Ph.D., Industrial Engineering, Seoul National Univ.
 * B.S., Computer Science, Seoul National Univ.
@@ -30,9 +30,8 @@ hide_description: true
 * B.S., Financial Engineering, Ajou Univ. 
 
 
-### Kwanghyun Yi (Data Analyst)
-* M.S., Financial Engineering, KAIST 
-* B.A., Economics, Sogang Univ.
+### Youngho Noh (Data Analyst)
+* B.S., Financial Engineering, Ajou Univ. 
 
 
 <hr>
