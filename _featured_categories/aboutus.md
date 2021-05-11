@@ -34,10 +34,10 @@ hide_description: true
 * B.S., Financial Engineering, Ajou Univ. 
 
 
-### **Advisory committee**
-#### Seokho Kang (Professor, Sungkyunkwan University)
-> Machine learning specialist
-> * [More about](https://sites.google.com/view/skkudm/people/professor)
+## **Advisory committee**
+### Seokho Kang (Professor, Sungkyunkwan University)
+> ***Machine learning specialist***
+> * [Details](https://sites.google.com/view/skkudm/people/professor)
 
 <hr>
 
