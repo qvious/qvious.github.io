@@ -35,9 +35,10 @@ hide_description: true
 
 
 ## **Advisory committee**
+
+> **Machine learning specialist**
 ### Seokho Kang (Professor, Sungkyunkwan University)
-> ***Machine learning specialist***
-> * [Details](https://sites.google.com/view/skkudm/people/professor)
+* [Details](https://sites.google.com/view/skkudm/people/professor)
 
 <hr>
 
