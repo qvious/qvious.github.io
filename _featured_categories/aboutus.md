@@ -33,11 +33,10 @@ hide_description: true
 ### Youngho Noh (Data Analyst)
 * B.S., Financial Engineering, Ajou Univ. 
 
-<hr>
 
 ### **Advisory committee**
+#### Seokho Kang (Professor, Sungkyunkwan University)
 > Machine learning specialist
-> #### Seokho Kang (Professor, Sungkyunkwan University)
 > * [More about](https://sites.google.com/view/skkudm/people/professor)
 
 <hr>
