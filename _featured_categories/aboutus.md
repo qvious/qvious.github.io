@@ -20,7 +20,6 @@ hide_description: true
 ![Screenshot](../assets/img/blog/1.jpg){:width="260" height="190.4" loading="lazy"}
 
 ### Sue-Jeong Kwon (QFC Director)
-<!-- * Lecturer, Sunghin women's university -->
 * Manager, Korea asset pricing
 * SW Engineer, LG CNS
 * M.S. / Ph.D., Industrial Engineering, Seoul National Univ.
