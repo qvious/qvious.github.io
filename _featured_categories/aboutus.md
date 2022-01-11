@@ -20,18 +20,26 @@ hide_description: true
 ![Screenshot](../assets/img/blog/1.jpg){:width="260" height="190.4" loading="lazy"}
 
 ### Sue-Jeong Kwon (QFC Director)
-* Lecturer, Sunghin women's university
+<!-- * Lecturer, Sunghin women's university -->
+* Manager, Korea asset pricing
 * SW Engineer, LG CNS
 * M.S. / Ph.D., Industrial Engineering, Seoul National Univ.
 * B.S., Computer Science, Seoul National Univ.
 
-### Yujin Hur (Data Analyst)
+### Yujin Hur (Associate Research Engineer)
 * Analyst, Korea asset pricing     
 * B.S., Financial Engineering, Ajou Univ. 
 
 
-### Youngho Noh (Data Analyst)
-* B.S., Financial Engineering, Ajou Univ. 
+### Wonjun Jung (Senior Research Engineer)
+* KICPA
+* Senior, KIS PRICING INC.
+* Senior, KPMG Samjong Accounting Corp.
+* M.S., Finance, KAIST
+
+
+### Gyuyeong Cho (Data Analyst)
+* B.S., Mathematics, Catholic Univ.
 
 
 ## **Advisory committee**
