@@ -73,13 +73,13 @@ legal:
     url:               /aboutus/    
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020 Qvious • All rights reserved. Qvious respects your privacy and never collects personally identifiable information. Please read our Terms of use. Template by [jekyll-theme-hydejack]("https://hydejack.com/" target="_blank") & <a class="external" href="https://suekwon.github.io/" target="_blank">suekwon</a>.
+copyright:   © 2022 Qvious • All rights reserved. Qvious respects your privacy and never collects personally identifiable information. Please read our Terms of use.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /:year/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              5
+paginate:              10
 paginate_path:         /page-:num/
 excerpt_separator:     <!--more-->
 
@@ -103,9 +103,10 @@ collections:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.0.4
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9.1.5
 
+destination: build
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
