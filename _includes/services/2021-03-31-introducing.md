@@ -24,7 +24,7 @@
 
 * **변동증거금 및 개시증거금**
     - 증거금 산출 엔진
-    - [국내 최초 SIMM 모형 라이선스 벤더](https://qvious.com/news/2019-11-29-mkarticle-isda/)
+    - [국내 최초 SIMM 모형 라이선스 벤더](https://qvious.com/2019/news/2019-11-29-mkarticle-isda/)
 
 
 * **Trade Repository 보고**
