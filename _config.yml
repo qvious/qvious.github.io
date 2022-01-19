@@ -73,7 +73,9 @@ legal:
     url:               /aboutus/    
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:   © 2022 Qvious • All rights reserved. Qvious respects your privacy and never collects personally identifiable information. Please read our Terms of use.
+copyright:  |  
+  ©2022 Qvious•All rights reserved•Qvious respects your privacy and never collects personally identifiable information.
+#Please read our Terms of use.
 
 # Format of the permalinks
 permalink:             /:year/:categories/:year-:month-:day-:title/
