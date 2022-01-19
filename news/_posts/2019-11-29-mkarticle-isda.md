@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 큐비어스 국내 최초 ISDA 단위테스트 통과(매일경제 기사)
+#image: /assets/img/blog/mkarticle1.png
 # description: >
   # Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 
@@ -12,4 +13,5 @@ sitemap: false
 
 > [기사원문](https://www.mk.co.kr/news/stock/view/2019/11/999445/)
 
-![200x200](../../assets/img/blog/mkarticle1.png "https://www.mk.co.kr/news/stock/view/2019/11/999445/")
+
+[![200x200](/assets/img/blog/mkarticle1.png)](https://www.mk.co.kr/news/stock/view/2019/11/999445/)

@@ -11,6 +11,7 @@ source "https://rubygems.org"
 gem "jekyll" #, "~> 4.1"
 
 # gem "jekyll-theme-hydejack" , "~> 9.0"
+gem "jekyll-theme-hydejack" #, path: "./#jekyll-theme-hydejack"
 
 # IMPORTANT: The followign gem is used to compile math formulas to 
 # KaTeX during site building.
@@ -24,7 +25,7 @@ gem "jekyll" #, "~> 4.1"
 #    For details, see <https://github.com/kramdown/math-katex#documentation>
 #
 # If you're using the MathJax math engine instead, free to remove the line below:
-# gem "kramdown-math-katex"
+gem "kramdown-math-katex"
 gem 'github-pages', group: :jekyll_plugins
 
 group :jekyll_plugins do
@@ -35,11 +36,11 @@ group :jekyll_plugins do
   gem "jekyll-readme-index"
   gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
-  gem "jekyll-seo-tag"  , git: "https://github.com/hydecorp/jekyll-seo-tag"
+  gem "jekyll-seo-tag"  #, git: "https://github.com/hydecorp/jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
-  gem "jekyll-include-cache" , git: "https://github.com/hydecorp/jekyll-include-cache"
-  gem "github-pages"
+  gem "jekyll-include-cache" #, git: "https://github.com/hydecorp/jekyll-include-cache"
+  #gem "github-pages"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
@@ -48,7 +49,7 @@ end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
-gem 'tzinfo' if Gem.win_platform?
+# gem 'tzinfo' if Gem.win_platform?
 
-gem 'rake'
-gem 'kramdown'
+# gem 'rake'
+# gem 'kramdown'
