@@ -83,7 +83,7 @@ date_formats:
   post:                '%d %b %Y'
   related_post:        '%d %b %Y'
   list_group_by:       '%Y'
-  list_entry:          '%d %b'
+  list_entry:          '%d %b %Y'
   project:             '%Y'
   projects_group_by:   '%Y'
   resume:              '%b %Y'
