@@ -17,4 +17,4 @@ sitemap: false
 > [바이브 기업 공시 원문](https://vaiv.irpage.co.kr/#/main?irnews=46721&lang=kr){:target="_blank"}
 
 
-[![200x200](/assets/img/blog/vaivir.png)](https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202111240298)
+[![200x200](/assets/img/blog/vaivir1.png)](https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202111240298)
