@@ -12,6 +12,8 @@ sitemap: false
 
 
 **큐비어스 사업수행 실적**
+* 2022/05 ~ 2022/09 NH헤지자산운용, FRTB 평가엔진 제공
+* 2022/05 ~ 2022/05 신영증권, 장외파생상품 공정가치 평가(cowork with 삼덕회계법인)
 * 2021/10 ~ 2022/02 한국씨티은행(CKI) KRX-TR Reporting system development stage II (cowork with KAP)
 * 2021/08 ~ 2021/08 바이브컴퍼니, 전환사채 공정가치 평가
 * 2021/07 ~ 2021/10 NH지주, NH증권 FRTB 컨설팅(cowork with KPMG)

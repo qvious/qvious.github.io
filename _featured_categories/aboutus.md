@@ -36,6 +36,10 @@ hide_description: true
 * Senior, KPMG Samjong Accounting Corp.
 * M.S., Finance, KAIST
 
+### Jaeyong Jung (Associate Research Engineer)
+* Quantitative analyst, Conning GmbH, Cologne, Germany
+* M.S., RWTH Aachen University, Aachen, Germany
+
 
 ### Gyuyeong Cho (Data Analyst)
 * B.S., Mathematics, Catholic Univ.
